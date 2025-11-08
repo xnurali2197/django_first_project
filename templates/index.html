@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">Welcome to My Website</h1>
+        <p class="card-text">This is the home page of our website. Feel free to explore!</p>
+        <a href="{% url 'about' %}" class="btn btn-primary">Learn More</a>
+    </div>
+</div>
+{% endblock %}
